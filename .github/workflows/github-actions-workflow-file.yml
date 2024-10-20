@@ -33,7 +33,7 @@ jobs:
           ls ${{ github.workspace }}
            
       - name: Step dotnet on runner
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '3.1.x'
 
